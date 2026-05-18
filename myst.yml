@@ -1,5 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - https://raw.githubusercontent.com/UC-OSPO-Network/ucospo.net/refs/heads/main/myst.yml
 project:
   id: 47959d38-ce02-459d-be12-6a805ef8b877
   # title:
