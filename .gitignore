@@ -1,0 +1,5 @@
+# MyST build outputs
+_build
+
+# For MacOS
+**/.DS_Store

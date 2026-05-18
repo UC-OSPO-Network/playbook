@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 47959d38-ce02-459d-be12-6a805ef8b877
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/UC-OSPO-Network/playbook
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
