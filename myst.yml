@@ -1,6 +1,40 @@
 version: 1
 project:
-  title: UC OSPO Network Sustainability Playbook
+  title: Sustainability Playbook Home
+  toc:
+    - file: index.md
+    - file: introduction.md
+    - title: Facet 1 - Discoverability
+      children:
+        - file: facet1/disco_intro.md
+        - file: facet1/scholarly_preservation.md
+        - file: facet1/licensing.md
+        - file: facet1/documentation_succession.md
+    - title: Facet 2 - Funding
+      children:
+        - file: facet2/funding_intro.md
+        - file: facet2/sponsored_projects.md
+        - file: facet2/gifts.md
+        - file: facet2/entrepreneurship.md
+        - file: facet2/nonprof_fiscsponsor.md
+        - file: facet2/sharedres_feeforserv.md
+        - title: Facet 2 - Funding
+    - title: Facet 3 - Community
+      children:
+        - file: facet3/community_intro.md
+    - title: Facet 4 - Product design
+      children:
+        - file: facet4/design_intro.md
+    - file: conclusion.md
+    - file: acknowledgments.md
+    - title: Appendix
+      children:
+        - file: appendix/uc_departments.md
+        - title: Interviews
+          children:
+            - file: interviews/interviews_intro.md
+            - file: interviews/Person1.md
+            - file: interviews/Person2.md
 
 site:
   template: book-theme
