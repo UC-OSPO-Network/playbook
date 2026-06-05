@@ -1,3 +1,6 @@
+.myst-bibliography {
+  display: none;
+}
 @font-face {
   font-family: "Atkinson Hyperlegible";
   font-style: normal;
@@ -432,10 +435,10 @@ footer.article-grid {
 
 .register-btn a {
   display: inline-block;
-  padding: 0.75rem 2rem;
+  padding: 0.65rem 1.75rem;
   background-color: #003cb3;
   color: #ffffff !important;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
   border-radius: 6px;
