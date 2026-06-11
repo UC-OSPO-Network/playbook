@@ -1,3 +1,7 @@
+---
+short_title: \* Introduction
+---
+
 # Introduction
 
 Open source software (OSS) is ubiquitous in academia, just as it is ubiquitous in every layer of our digital lives. It's been [estimated](https://todogroup.org/blog/state-of-ospo-2024/) that 94% of companies use open source software, all major programming languages are available in open source implementations, and as you read this document right now, you're using OSS, too. The remarkable success of OSS, however, belies a crisis under the surface. A large proportion of open source maintainers are overworked, underpaid, and [battling burnout](https://www.sonarsource.com/the-2024-tidelift-maintainer-impact-report.pdf), even those who are maintaining projects with great utility. Academic open source maintainers are no exception--surveys show that the majority of research software contributors lack sufficient funding to support software development activities for their research ([Carver et al. 2022](https://doi.org/10.7717/peerj-cs.963)), and that they believe the most useful support a university could provide for their software development work would be grants for sustainability ([Scarlett et al. 2026](https://doi.org/10.1371/journal/pone.0348894)). Addressing this crisis on a global scale will take time, but there are things that you can do now to strengthen your project's financial and social future.
@@ -53,6 +57,8 @@ Looking for more resources similar to this playbook? Check out these related wor
     * A handbook on growing and sustaining open source software projects. Created and curated by GitHub, along with input from community reviewers.
 * [CHAOSS practitioner guides](https://chaoss.community/about-chaoss-practitioner-guides/)
     * CHAOSS (Community Health Analytics in Open Source Software)’s Practitioner Guides contain advice for maintainers and practitioners about assessing and strengthening open source project health.
+* [SustainOSS Podcasts](https://sustainoss.org/podcasts/)
+    * SustainOSS is a community dedicating to supporting open source maintainers and the health of open source projects. They have several active and archived podcast series on OSS sustainability.
 * [It Takes a Village from Lyrasis](https://itav.lyrasis.org/)
     * A practical guide for OSS sustainability, rich with case studies and interviews, geared toward open-source software projects serving cultural and scientific heritage organizations.
 * [OSAOS Handbook](https://osaos.codeforscience.org/)
