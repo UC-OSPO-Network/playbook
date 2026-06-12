@@ -5,7 +5,7 @@ short_title: \* Preserving your software in the scholarly record
 
 The first step to making your code discoverable is to put it online. However, not all websites are equally reliable or future-proof. A UC OSPO study found that 30% of experienced UC open source contributors have, at one time or another, shared their code on a custom website, such as a lab website ([Scarlett et al. 2026](https://doi.org/10.1371/journal.pone.0348894)). These custom websites may be useful for temporary or informal communications, but they should not be considered the “version of record”. Complement (or replace) these communications with persistent identifiers pointing to scholarly repositories or well-established version control platforms, and other researchers will have an easier time finding your code and giving you credit for it.
 
-In this section, we’ll discuss software citation, authorship agreements, software papers, succession planning, and archival. Many of these practices are easily overlooked in the hectic research process, and they are also easily confused, since best practice changes quickly. Luckily, the UC Libraries and the UC OSPO Network provide robust support for them.
+In this section, we’ll discuss software citation, authorship agreements, software papers, succession planning, and archival. Many of these practices are easily overlooked in the hectic research process, and they are also easily confused, since guidance changes quickly. Luckily, the UC Libraries and the UC OSPO Network provide robust support for them.
 
 ## Software citation and authorship agreements
 
@@ -23,11 +23,11 @@ Here is a checklist for you as a creator of research software, paraphrased from 
 * **Provide a clear version number.** Mature projects, or projects that simply wish to use an industry standard versioning system, may consider using the [SemVer standard](https://semver.org) for semantic versioning. Open source, git-tracked projects that do not use formal versioning can be cited using the git commit hash. If you do not wish to use semantic versioning, consider stating in your README that users should cite the commit hash of the version they used ([Katz et al. 2019](https://doi.org/10.48550/arXiv.1905.08674)).
 * **Clarify authorship.** Provide a clear set of authors, and ensure all contributors are aware of the authorship criteria. If yours is a community-driven project, make clear the intellectual property (IP) rights of authors and contributors as well.
 * **Procure a persistent identifier.** There are two good ways to do this:
-    * Obtain a DOI through a data repository (recommended). For one-off projects that are finished, you can deposit a zip archive of your code in any data repository and a DOI will be generated. For ongoing projects, consider using a repository with GitHub integration, such as Zenodo. (For non-GitHub version control platforms, you can still manually deposit new versions, or use the Zenodo API.) All ten UC campuses have institutional subscriptions to the Dryad data repository. Dryad does not accept software, but if you are publishing a dataset and associated code, you can deposit both in Dryad and Dryad will create a Zenodo deposit for you.
+    * Obtain a DOI through a data repository. For one-off projects that are finished, you can deposit a zip archive of your code in any data repository and a DOI will be generated. For ongoing projects, consider using a repository with GitHub integration, such as Zenodo. (For non-GitHub version control platforms, you can still manually deposit new versions, or use the Zenodo API.) All ten UC campuses have institutional subscriptions to the Dryad data repository. Dryad does not accept software, but if you are publishing a dataset and associated code, you can deposit both in Dryad and Dryad will create a Zenodo deposit for you.
     * Another persistent identifier that is less well-known, but is designed for software, is the SWHID. Your code may already be present in the Software Heritage Archive, meaning you may already have a SWHID persistent identifier for your code.
 ````
 
-Here’s an example of a complete software citation. You should make it easy for your users to generate a citation like this one.
+Here’s an example of a complete software citation. Whether you want users to use a DOI, a SWHID, or a commit hash is up to you, but you should give instructions in your README that make it easy for your users to generate a citation like this one.
 ```{image} ../images/citation.png
 :alt: An illustration of a proper software citation, with arrows pointing to the fact that it names the authors, provides a DOI, and provides version numbers, using SemVer semantic versioning or a git hash. The citation reads as follows: Bear, Oski and Bruin, Josephine. (2026). UCCool [software] version 1.2.3. Zenodo. https://doi.org/10.1234/zenodo.1234567.
 :align: center
@@ -136,6 +136,92 @@ Many of the UC OSPO Network’s staff and volunteers are affiliated with UC libr
 :::
 :::{grid-item}
 :columns: 10
-Looking for more resources similar to this playbook? Check out these related works.
+Want to learn more about scholarly preservation of software? Check out these related resources.
 :::
 ::::
+
+### Software Citation
+
+* [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/)
+  * A web-based form tool that guides users through creating and validating `CITATION.cff` (Citation File Format) files for their repositories directly from a browser.
+
+
+* [cffconvert](https://github.com/citation-file-format/cffconvert)
+  * A command-line utility and Python program designed to validate `CITATION.cff` files and convert them into standard bibliographic formats like BibTeX, RIS, EndNote, and CodeMeta.
+
+
+* [FORCE11 Software Citation Checklist for Authors](https://doi.org/10.5281/zenodo.3479198)
+  * A practical, step-by-step checklist to help researchers properly cite software used in their academic publications.
+
+
+* [FORCE11 Software Citation Checklist for Developers](https://doi.org/10.5281/zenodo.3482768)
+  * Best practices for software developers on how to make their software discoverable, identifiable, and straightforward for others to cite.
+
+
+* [Software Citation Implementation Challenges](https://doi.org/10.48550/arXiv.1905.08674)
+  * An academic white paper exploring the ongoing technical, cultural, and institutional hurdles to proper software citation. Includes current consensus on many challenging scenarios and "edge cases".
+
+
+
+### Authorship & Contributor Agreements
+
+* [CRediT Taxonomy](https://credit.niso.org/)
+  * The Contributor Roles Taxonomy (CRediT) provides a high-level classification system featuring 14 distinct roles to recognize varied contributions to scholarly work beyond traditional authorship.
+
+
+* [ICMJE Authorship Guidelines](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html)
+  * Recommendations from the International Committee of Medical Journal Editors defining criteria and responsibilities for authors and non-author contributors in academic publishing.
+
+
+* [COPE Guidelines on Authorship Disputes](https://publicationethics.org/guidance/guideline/how-handle-authorship-disputes-guide-new-researchers)
+  * A resource and practical guide from the Committee on Publication Ethics (COPE) explicitly designed to help new researchers navigate, prevent, and resolve disagreements over academic authorship.
+
+
+* [All Contributors Project](https://github.com/all-contributors/app)
+  * An open-source tool and specification that automates the process of acknowledging all types of project contributors directly within a repository.
+
+
+* [Contribution vs. Credit vs. Authorship for Software](https://danielskatzblog.wordpress.com/2019/01/23/contribution-vs-credit-vs-authorship-for-software/)
+  * A blog post exploring the distinctions between software contributions and qualifying for formal academic authorship.
+
+
+### Software Papers
+
+* [eScholarship](https://escholarship.org/)
+  * The University of California’s open-access institutional repository and scholarly publishing platform. Administered by the California Digital Library, it hosts over 100 open-access journals and provides UC researchers with services to publish, store, and disseminate academic papers, monographs, and conference proceedings.
+
+
+* [Journal Open Access Lookup Tool (JOLT)](https://jolt.cdlib.org/)
+  * A searchable lookup database created by the California Digital Library that helps University of California authors determine which academic journals are covered by systemwide open-access agreements, specifying the tier of funding or discount available for each title.
+
+
+* [UC OSC Open Access Publishing Agreements and Discounts](https://osc.universityofcalifornia.edu/for-authors/publishing-discounts/)
+  * A central directory hosted by the UC Office of Scholarly Communication detailing institution-wide negotiated discounts, membership privileges, and cost-coverage policies for Article Processing Charges (APCs) across various scholarly publishers.
+
+* [SSI List of Journals Accepting Software Papers](https://www.software.ac.uk/top-tip/which-journals-should-i-publish-my-software)
+  * A curated list from the Software Sustainability Institute of academic journals that accept and publish peer-reviewed papers about software.
+
+
+### Succession Planning
+
+* [UC Berkeley Succession Planning Toolkit](https://hr.berkeley.edu/grow/grow-your-impact/services-offered/succession-planning-academic-and-administrative-departments)
+  * A toolkit to assist academic and administrative departments with succession planning before or during staff departures.
+
+
+
+### Archival & Repositories
+
+* [Dryad](https://datadryad.org/)
+  * An open-access data repository where CDL and the 10 UC campuses hold institutional memberships, allowing researchers to deposit research datasets for free with free curation services. Dryad does not accept code, but the Dryad interface includes options to deposit your code on Zenodo as you deposit your dataset (also free).
+
+
+* [Zenodo](https://zenodo.org/)
+  * A generalist data and code repository with robust GitHub integration to automatically generate DOIs for software releases.
+
+
+* [Software Heritage](https://www.softwareheritage.org/)
+  * A universal, long-term source code archive seeking to preserve the global software landscape. Users can search the platform to see if their code has already been archived and assigned a Software Heritage Identifier (SWHID).
+
+
+* [Re3data](https://www.re3data.org/)
+  * A global registry indexing thousands of research data repositories, including those specific to a particular field of study. While it is focused on data repositories, many of the repositories listed also accept code.
