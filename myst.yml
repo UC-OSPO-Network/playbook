@@ -33,7 +33,7 @@ project:
         - title: Interviews
           children:
             - file: interviews/interviews_intro.md
-            - file: interviews/Person1.md
+            - file: interviews/jon_balkind.md
             - file: interviews/Person2.md
 
 site:
