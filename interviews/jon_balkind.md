@@ -16,7 +16,6 @@ _Jonathan Balkind is an Assistant Professor in the Department of Computer Scienc
 We sat down with Jonathan Balkind to discuss open source product design. Jon’s experience shows that the themes of community and product design are inextricably linked. Jon regards the OpenPiton project as different from many others in the field, because it doesn’t require a high volume of major updates or community contributions. Instead, it is a relatively stable framework purpose-built for user customization.
 
 ---
----
 
 **Virginia**: So, tell me about the project we’ll focus on today or project and your role in it.
 
