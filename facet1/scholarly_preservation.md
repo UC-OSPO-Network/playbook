@@ -1,5 +1,5 @@
 ---
-short_title: \* Preserving your software in the scholarly record
+short_title: ✅ Preserving your software in the scholarly record
 ---
 # Preserving your software in the scholarly record
 

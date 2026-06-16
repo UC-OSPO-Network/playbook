@@ -1,5 +1,5 @@
 ---
-short_title: \* What is discoverability?
+short_title: ✅ What is discoverability?
 ---
 
 # What is discoverability?

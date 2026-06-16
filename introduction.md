@@ -1,5 +1,5 @@
 ---
-short_title: \* Introduction
+short_title: ✅ Introduction
 ---
 
 # Introduction
