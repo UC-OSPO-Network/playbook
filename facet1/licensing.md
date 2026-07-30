@@ -174,6 +174,7 @@ Want to learn more about open source licensing? Check out these related resource
 
 
 ## Licensing Open Source Hardware
+⚠️**IMPORTANT**⚠️: These resources can serve as foundational knowledge, but UC resources and policies will always supersede these more generic resources.
 
 - [OSHWA: Best Practices for Open Source Hardware 1.0](https://oshwa.org/resources/sharing-best-practices/)
   - A beginner-friendly guide outlining the fundamentals of open hardware licensing and key differences between hardware and software licenses.
@@ -184,4 +185,4 @@ Want to learn more about open source licensing? Check out these related resource
 - [Beldiman (2019) – “From Bits to Atoms: Does the Open Source Software Model Translate to Open Source Hardware?”](https://digitalcommons.law.scu.edu/chtlj/vol35/iss2/3/)
   - For those seeking a deep dive into the law of open source hardware, consider this comprehensive analysis of the issues from a professor of IP law.
 
-See also the Turing Way reference in the “General Overviews” section of this bibliography, which includes a section on hardware licensing.
+See also the Turing Way reference in the “General Overviews” section above, which includes a section on hardware licensing.
