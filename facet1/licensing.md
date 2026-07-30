@@ -14,11 +14,11 @@ short_title: ✅ Licensing at UC
 
 Once a user has discovered your codebase, they will (or should) next look for your license. A software license describes the terms and conditions under which a user can use, modify, and/or distribute a piece of software. Under the intellectual property laws of the United States and many other countries, no one can legally use your code without a valid license. Without a license, others may bypass your work in favor of more clearly licensed alternatives, with the recognition and benefits of community collaboration going to that project instead of yours.
 
-Choosing a license is not always as simple as choosing the one that sounds good to you. The UC Regents and/or your grant funder may have ownership interest in code you author and may require a certain type of license. Prior to releasing any code, you must ensure that applicable UC policies or grant requirements are followed. This is discussed in more depth below.
+Choosing a license is not always as simple as choosing the one that sounds good to you. The UC Regents and/or your grant funder may have ownership interest in code you author and **may require a certain type of license**. Prior to releasing any code, you must ensure that applicable UC policies or grant requirements are followed. This is discussed in more depth below.
 
 It is generally accepted that the Open Source Initiative (OSI) stewards the [definitive list of open source licenses](https://opensource.org/licenses). Therefore, to be considered open source, your software and its dependencies must have OSI-approved licenses.
 
-A thorough treatment of open source licensing is beyond the scope of this handbook. Rather than try to provide a systematic overview of open source licensing, we will focus on aspects of it that are relevant to the UC researcher, addressing common questions and scenarios. We refer to several more systematic overviews in the references section.
+A thorough treatment of open source licensing is beyond the scope of this handbook. Rather than try to provide a systematic overview of open source licensing, we will focus on aspects of it that are relevant to the UC researcher, addressing common scenarios and key policies. We refer to several more systematic overviews in the references section.
 
 # When is the right time to "go open source"?
 
@@ -72,7 +72,7 @@ Choosing from among the available open source and non-open source licenses is co
 2.	Never attempt to write your own software license.
 3.	Stick to the most common open source licenses (e.g., MIT, the BSD licenses, Apache 2.0, the Mozilla Public License, GNU LGPL, the GNU GPL licenses, and AGPL). Do not use quirky or unusual licenses.
 
-While these rules of thumb apply to any software developer, your choices as a UC researcher are further shaped by university IP policies.
+While these rules of thumb apply to any software developer, your choices as a UC researcher are further shaped by university IP policies. For works owned by the UC Regents or resulting from funded research, you must consult with your TTO. The UC Regents have created an [OSS Chart](https://security.ucop.edu/resources/open-source-software-licensing.html) of recommended open source licenses for different use cases. The Apache and GPLv3 variants are patent granting licenses and are disfavored when releasing code. Please consult with the OSS Chart and the OSS Chart Companion when considering licenses.
 
 ## Copyright ownership at UC
 You may not necessarily have the right to license your code as you wish. In fact, it’s very likely that you don’t, unless you are [a student producing work for a class](https://www.ucop.edu/research-policy-analysis-coordination/policies-guidance/intellectual-property/intellectual-property-as-a-student-at-the-university-of-california-faq.html). The Intellectual Property (IP) rights likely belong to the UC Regents; see the UC’s [Copyright Policy](https://copyright.universityofcalifornia.edu/resources/copyright-ownership.html) and [Patent Policy](https://www.ucop.edu/innovation-transfer-operations/innovation/training-and-education/uc-patent-policy.html) to learn more. You can can choose your own software license only if you own the copyright rights to your work, as described in the UC Copyright Policy. In that case, you would put your own name in the license. In other cases, you would change the licensor name to “Regents of the University of California”, unless otherwise directed by the TTO.
