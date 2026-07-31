@@ -150,12 +150,11 @@ Want to learn more about open source licensing? Check out these related resource
 - [UC Policy on Copyright Ownership](https://copyright.universityofcalifornia.edu/resources/copyright-ownership.html)
   - UC’s official policy on who owns creative and scholarly works.
 
-- [UCLA Technology Development Group's Copyright guide](https://tdg.ucla.edu/about/faq/copyright)
-  - The UCLA TTO's guide to copyright ownership at UC, which describes the policy in plain language.
-
 - [UC Policy on Inventions, Patents, and Innovation Transfer](https://www.ucop.edu/innovation-transfer-operations/innovation/training-and-education/uc-patent-policy.html)
   - The framework outlining how UC manages patentable inventions developed using university facilities, funds, or employment.
 
+- [UCLA Technology Development Group's Copyright guide](https://tdg.ucla.edu/about/faq/copyright)
+  - The UCLA TTO's guide to copyright ownership at UC, which describes the policy in plain language.
 
 ## General Overviews of Open Source Licensing
 ⚠️**IMPORTANT**⚠️: These resources can provide foundational knowledge, but UC resources and policies will always supersede these more generic resources.
