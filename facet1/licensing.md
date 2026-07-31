@@ -158,7 +158,7 @@ Want to learn more about open source licensing? Check out these related resource
 
 
 ## General Overviews of Open Source Licensing
-⚠️**IMPORTANT**⚠️: These resources can serve as foundational knowledge, but UC resources and policies will always supersede these more generic resources.
+⚠️**IMPORTANT**⚠️: These resources can provide foundational knowledge, but UC resources and policies will always supersede these more generic resources.
 
 - [The Turing Way: Licensing](https://book.the-turing-way.org/reproducible-research/licensing)
   - The Turing Way’s chapter on licensing includes sections on license compatibility, ‘ethical source’, data licenses, open hardware licenses, and licensing machine learning models.
@@ -174,7 +174,7 @@ Want to learn more about open source licensing? Check out these related resource
 
 
 ## Licensing Open Source Hardware
-⚠️**IMPORTANT**⚠️: These resources can serve as foundational knowledge, but UC resources and policies will always supersede these more generic resources.
+⚠️**IMPORTANT**⚠️: These resources can provide foundational knowledge, but UC resources and policies will always supersede these more generic resources.
 
 - [OSHWA: Best Practices for Open Source Hardware 1.0](https://oshwa.org/resources/sharing-best-practices/)
   - A beginner-friendly guide outlining the fundamentals of open hardware licensing and key differences between hardware and software licenses.
