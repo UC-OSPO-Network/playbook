@@ -11,6 +11,9 @@ short_title: ✅ Licensing at UC
 ```
 
 *This guide is not meant to provide legal advice or replace consulting with an attorney or other professional. The information contained in this guide is provided for informational purposes only, and should not be construed as legal advice on any subject matter. The contents of this guide contain general information and may not reflect current legal developments or address your situation. If you require legal advice, please consult with your attorney. No attorney-client relationship is created between you and the authors of this guide or University of California.*
+<br>
+<br>
+<br>
 
 Once a user has discovered your codebase, they will (or should) next look for your license. A software license describes the terms and conditions under which a user can use, modify, and/or distribute a piece of software. Under the intellectual property laws of the United States and many other countries, no one can legally use your code without a valid license. Without a license, others may bypass your work in favor of more clearly licensed alternatives, with the recognition and benefits of community collaboration going to that project instead of yours.
 

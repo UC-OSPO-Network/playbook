@@ -1,1 +1,1 @@
-# Non-profits and fiscal sponsorship
+# Gifts, non-profits, and fiscal sponsorship
