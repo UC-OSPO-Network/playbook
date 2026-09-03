@@ -5,7 +5,7 @@ short_title: ✅ Licensing at UC
 # Licensing at UC
 
 ```{image} ../images/licensing_plain.svg
-:alt: A stylized illustration of two peopl on laptops surrounded by the MIT and Apache logos.
+:alt: A stylized illustration of two people on laptops surrounded by the MIT and Apache logos.
 :width: 70%
 :align: center
 ```
@@ -78,6 +78,13 @@ Choosing from among the available open source and non-open source licenses is co
 While these rules of thumb apply to any software developer, your choices as a UC researcher are further shaped by university IP policies. For works owned by the UC Regents or resulting from funded research, you must consult with your TTO. The UC Regents have created an [OSS Chart](https://security.ucop.edu/resources/open-source-software-licensing.html) of recommended open source licenses for different use cases. The Apache and GPLv3 variants are patent granting licenses and are disfavored when releasing code. Please consult with the OSS Chart and the OSS Chart Companion when considering licenses.
 
 ## Copyright ownership at UC
+
+```{image} ../images/copyright.svg
+:alt: A stylized illustration of a person holding a document that says "Copyright Regents of the University of California".
+:width: 50%
+:align: center
+```
+
 You may not necessarily have the right to license your code as you wish. In fact, it’s very likely that you don’t, unless you are [a student producing work for a class](https://www.ucop.edu/research-policy-analysis-coordination/policies-guidance/intellectual-property/intellectual-property-as-a-student-at-the-university-of-california-faq.html). The Intellectual Property (IP) rights likely belong to the UC Regents; see the UC’s [Copyright Policy](https://copyright.universityofcalifornia.edu/resources/copyright-ownership.html) and [Patent Policy](https://www.ucop.edu/innovation-transfer-operations/innovation/training-and-education/uc-patent-policy.html) to learn more. You can can choose your own software license only if you own the copyright rights to your work, as described in the UC Copyright Policy. In that case, you would put your own name in the license. In other cases, you would change the licensor name to “Regents of the University of California”, unless otherwise directed by the TTO.
 
 Since every project is different, licensing is a question best discussed with your campus TTO and the UC OSPO Network. However, many academics may feel reluctant to do so. Here are some questions to consider if you’re not sure whether you should talk to your TTO:
