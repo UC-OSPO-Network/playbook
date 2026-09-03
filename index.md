@@ -8,3 +8,4 @@ Most pages are placeholders for now. We'll fill them in as soon as we can!
 
 Let us know what you think! [Leave an issue](https://github.com/UC-OSPO-Network/playbook) or email us at ospo@library.ucsb.edu.
 
+Illustrations modified from art on [undraw.co](https://undraw.co/) by [Katerina Limpitsouni](https://x.com/ninalimpi).
