@@ -21,6 +21,7 @@ project:
     - title: Facet 3 - Community
       children:
         - file: facet3/community_intro.md
+        - file: facet3/communication.md
     - title: Facet 4 - Product design
       children:
         - file: facet4/design_intro.md

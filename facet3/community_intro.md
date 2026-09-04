@@ -26,9 +26,9 @@ Before we dig in, here's a quick way to tell how much of this facet is for you. 
 :align: center
 ```
 
-* Level 1: In the innermost level, you have users but you're not endeavoring on their behalf as such. You've made your software available, and people can use it or fork it, but you're not fielding requests or taking contributions. That's a completely legitimate way to run an open source project! If that's where you are and where you're happy to stay, you're in good shape, and you can skip most of this facet. It'll be here if your project ever grows into wanting a community around it.
-* Level 2: The next level is where you start engaging with your users. You take requests, you help people when they get stuck, but you're not accepting outside contributions to the code.
-* Level 3: The outermost level is full co-development: you take requests and you welcome contributions from beyond your core team.
+* **Level 1**: In the innermost level, you have users but you're not endeavoring on their behalf as such. You've made your software available, and people can use it or fork it, but you're not fielding requests or taking contributions. That's a completely legitimate way to run an open source project! If that's where you are and where you're happy to stay, you're in good shape, and you can skip most of this facet. It'll be here if your project ever grows into wanting a community around it.
+* **Level 2**: The next level is where you start engaging with your users. You take requests, you help people when they get stuck, but you're not accepting outside contributions to the code.
+* **Level 3**: The outermost level is full co-development: you take requests and you welcome contributions from beyond your core team.
 
 The distinctions between these rings or levels are not always clear (nor, for that matter, is the distinction between user and contributor always clear). Nevertheless, there can be no mistaking that some open source projects are more community-oriented than others, and these three levels are a useful starting point for talking about that variation.
 
