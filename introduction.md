@@ -4,6 +4,12 @@ short_title: ✅ Introduction
 
 # Introduction
 
+```{image} images/umbrella_logo.svg
+:alt: The UC OSPO Network logo, modified so that it appears to be holding an umbrella.
+:width: 70%
+:align: center
+```
+
 Open source software (OSS) is ubiquitous in academia, just as it is ubiquitous in every layer of our digital lives. It's been [estimated](https://todogroup.org/blog/state-of-ospo-2024/) that 94% of companies use open source software, all major programming languages are available in open source implementations, and as you read this document right now, you're using OSS, too. The remarkable success of OSS, however, belies a crisis under the surface. A large proportion of open source maintainers are overworked, underpaid, and [battling burnout](https://www.sonarsource.com/the-2024-tidelift-maintainer-impact-report.pdf), even those who are maintaining projects with great utility. Academic open source maintainers are no exception--surveys show that the majority of research software contributors lack sufficient funding to support software development activities for their research ([Carver et al. 2022](https://doi.org/10.7717/peerj-cs.963)), and that they believe the most useful support a university could provide for their software development work would be grants for sustainability ([Scarlett et al. 2026](https://doi.org/10.1371/journal/pone.0348894)). Addressing this crisis on a global scale will take time, but there are things that you can do now to strengthen your project's financial and social future.
 
 This playbook is for contributors, creators, and maintainers of academic open source software (OSS) at the University of California. We’ll discuss the strategies that UC OSS projects have used to sustain success, ways that UC was a partner on the journey, and some ways in which UC is still catching up to the fast-moving world of OSS. Hardware creators will also find useful content here, though the focus is on software (hardware creators may want to also check out [https://ouch-advice.github.io/](https://ouch-advice.github.io/)). Whether you're a faculty member, staff, or student, if you’re interested in how open source projects do more with less, this playbook is for you.
