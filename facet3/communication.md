@@ -45,9 +45,9 @@ In some cases, it may even make sense to attach your tool to an existing toolkit
 Of course, some projects really do succeed in standing up their own forum and hosting their own events, particularly mature projects. Discourse is a popular platform for this purpose. Ask your users what would work for them!
 
 # Communication channels
-Whether your project is brand new or well-established, you’ll want to make it clear where people can send their comments and questions. Here are some considerations based on the "levels" we discussed in [the introduction to this facet](community_intro.md#three-approaches-to-oss-communities).
+Whether your project is brand new or well-established, you’ll want to make it clear where people can send their comments and questions. Here are some considerations, roughly corresponding to the "levels" we discussed in [the introduction to this facet](community_intro.md#three-approaches-to-oss-communities).
 
-## "Level 1"
+## Experimental and/or personal projects
 
 For new, experimental, or personal projects, you really only need to answer two questions:
 * How can people get a hold of you?
@@ -63,10 +63,20 @@ A **project status** is crucial for helping people decide whether to adopt your 
 
 Being explicit about your project’s status is honest and helpful, and will help you build a positive reputation.
 
-## "Level 2"
+```{figure} ../images/static_status_badge.png
+:alt: An image of a shields.io status badge that reads: "project status: experimental".
+:figwidth: 40%
+:align: center
+:class: fig-caption-text
+
+For smaller projects especially, a static badge can be a quick and easy way to communicate a simple project status.
+
+```
+
+## Growing projects
 Once your repository starts gaining traction, issues, pull requests, and 1-on-1 email communications may not be sufficient for a variety of reasons. A real-time chat space with persistent messages may be a wise investment of time and energy. A chat space can help organize your communications into channels, foster random conversations that promote social connection, and make your public conversations findable for future users. AAQ06
 
-## "Levels 2 and 3"
+## Mature projects
 If you’re serious about building community, then you’ll want to make sure you have all of the above communication channels, and you may also consider adding the additional channels below.
 
 **In-app communication:** Consider leaving contact information inside your application itself. If your application has a start-up message printed to the terminal, you can put contact information in there. If your application has a graphical user interface, you could add a “Report a bug” button. AAQ07
@@ -77,13 +87,21 @@ If you’re serious about building community, then you’ll want to make sure yo
 
 # Expectations for conduct
 
-As soon as you’re engaging with users—and they’re engaging with each other—you need a Code of Conduct (CoC). Many projects think they don’t need a Code of Conduct, because it’s a small team and everyone gets along. But the downside of having one is roughly zero, and it’ll be there for you if some new conflict arises. A CoC is not like governance or project management structures, which can feel cumbersome if applied too enthusiastically too early. A CoC adopted early is unlikely to cause any extra friction or make the work less fun. It may even help existing team members feel more safe in subtle ways.
+```{image} ../images/handshake.svg
+:alt: A stylized illustration of two people holding a contract and shaking hands.
+:width: 70%
+:align: center
+```
+
+As soon as you’re engaging with users—and they’re engaging with each other—you need a Code of Conduct (CoC). Many projects think they don’t need a Code of Conduct, because it’s a small team and everyone gets along. But the downside of having one is roughly zero, and it’ll be there for you if some new conflict arises. A CoC is not like governance or project management structures, which can feel cumbersome if applied too enthusiastically too early. A CoC adopted early is unlikely to cause any extra friction. It may even help existing team members feel more safe in subtle ways.
 
 You don’t have to write a CoC from scratch! Use [our template here](https://ucospo.net/oss-resources/template-guides/code-of-conduct-guide/) (based on the [Contributor Covenant](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)). Read it, adjust it to fit your project, post it, and you’re done.
 
 A very small project might not stand up a CoC committee before anything happens, and that’s fine; what matters is that the CoC document already exists. That way, when something does come up, you have policies to guide you. Otherwise, if you point to some random CoC template in response to a conflict, people might feel you are changing the rules in the middle of the game.
 
 On the other hand, if you’re excited about this stuff, or if you’re a fast-growing project onboarding a lot of new people, you may wish to establish a Code of Conduct committee before any conflict arises. Like governance and project management, a CoC is a social contract, and it will be more effective if everyone who wants to help shape it has had the chance to.
+
+## Responding to concerns
 
 Team members on an open-source project often have unequal power relationships outside the project. So when a contributor considers reporting someone with whom they share a lab or a grant, they may be risking more than an awkward thread on GitHub—they may be risking authorship, funding, a recommendation letter, or time to degree. That asymmetry of power should inform how you handle a report:
 
@@ -93,6 +111,7 @@ Team members on an open-source project often have unequal power relationships ou
 
 
 ```{note} Campus support for conduct violations
+Consider reaching out to these university departments for your advice and/or enforcement needs.
 * **Ombuds:** Your campus ombuds office offers facilitation and consultations to help you navigate work-related conflicts in a free, confidential, no-commitment setting.
 * **Student Affairs:** Student Affairs departments oversee many resources for student well-being, including career support and health and wellness resources.
 * **Employee Assistance Program (EAP):** EAP offices support the health and well-being of faculty and staff, usually offering consultation, confidential short-term therapy, and wellness workshops.
