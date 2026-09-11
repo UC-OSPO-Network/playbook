@@ -22,15 +22,23 @@ Various definitions of open source sustainability have been proposed (e.g. [OSAO
 
 Many academics may understandably feel that sustainability means funding. However, plenty of well-funded projects have fizzled out, and plenty of scrappy projects have achieved remarkable success. In OSS, as the saying goes, money isn’t everything. We offer a holistic approach to sustainability, inspired by the four facets presented in the [It Takes a Village Guidebook by Lyrasis](https://itav.lyrasis.org/guidebook/).
 
-```{image} images/facets.png
+```{image} images/facets_new.svg
 :alt: A diagram showing the four facets of sustainability with decorative pictures above each.
 :align: center
+:width: 100%
+:class: dark:hidden
+```
+```{image} images/facets_new_dark.svg
+:alt: A diagram showing the four facets of sustainability with decorative pictures above each.
+:align: center
+:width: 100%
+:class: hidden dark:block
 ```
 
 * **Discoverability:** Provide records that will make your software easier to find and use.
 * **Funding:** Consider four key mechanisms for funding for academic open source: sponsored projects; entrepreneurship; gifts, non-profits, and fiscal sponsorship; and institutional funding.
 * **Community:** Build a welcoming community to fuel innovation, recognition, and trust.
-* **Product design:** Encourage community contributions by building a codebase that is designed to be modified.
+* **Product design:** Encourage community contributions by building a product that is designed to be modified.
 
 Academic open source creators are a diverse group. To reflect their varieties of experience, we interviewed UC researchers who have found innovative ways to sustain (or thoughtfully sunset) their OSS at UC, and incorporated the interviews into this book as quotes, anecdotes, and ideas. Abridged transcripts of the full interviews are available in the appendix. Sustaining OSS at UC may feel daunting, but you are not alone. There are other researchers who have navigated these hurdles already, and we’ve collected their stories here for you.
 
@@ -66,7 +74,7 @@ The descriptions of university offices (such as Sponsored Projects, Strategic Re
 ::::{grid} 12 12 12 12
 :::{grid-item}
 :columns: 2
-```{image} images/ospo_link.png
+```{image} images/ospo_link.svg
 :width: 80%
 ```
 :::
