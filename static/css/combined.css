@@ -1,9 +1,11 @@
 .myst-bibliography {
   display: none;
 }
-.fig-caption-text figcaption {
-  font-weight: normal !important;
-  font-size: 16px !important;
+.fig-caption-text figcaption,
+figure.fig-caption-text figcaption p {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
 }
 .centered-text {
   text-align: center;
@@ -125,7 +127,7 @@ html {
   border-color: var(--ucsb-panel2-bg);
 }
 
-.suspb-image {
+.ucsb-float-left {
   float: left;
   width: 250px;
   height: auto;
@@ -164,14 +166,9 @@ html {
   position: absolute;
 }
 
-.ucsb-hero-img {
-  width: 100%;
-  height: auto;
-}
-
-.ucsb-hero-caption {
-  font-size: 0.5rem;
-  margin-top: 0;
+.ucsb-fig-caption-text figcaption {
+  font-weight: normal !important;
+  font-size: 16px !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -251,7 +248,7 @@ html {
 
 .ucsb-float-right {
   float: right;
-  width: 360px;
+  width: 250px;
   margin: 0 0 1em 1em;
 }
 
@@ -495,7 +492,7 @@ footer.article-grid {
 
 /* Ensure mermaid flowchart node text is readable */
 .mermaid-centered .nodeLabel p {
-  color: #222 !important;
+  color: #757575 !important;
 }
 
 /* ── Blog cards ─────────────────────────────────────────────────── */
@@ -817,5 +814,60 @@ figcaption,
     float: none !important;
     display: block;
     margin: 0 auto 1rem auto !important;
+  }
+}
+
+/* Per-page prev/next nav at the bottom of welcome-packet sequence pages.
+   The site-wide footer prev/next is hidden via hide_footer_links: true
+   in site.yml; these classes provide explicit nav on just the pages that
+   want it. */
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.page-nav p {
+  margin: 0;
+}
+
+.page-nav-prev-only {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.page-nav-next-only {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+  text-align: right;
+}
+
+.page-nav-prev-only p,
+.page-nav-next-only p {
+  margin: 0;
+  /* Events page: replace MyST's default aspect-ratio iframe box with a fixed
+   height for the campus-calendar embed (/events-embed.html). MyST wraps raw
+   iframes in a .relative.inline-block div with inline padding-bottom. */
+  .relative.inline-block:has(> iframe[src^="/events-embed.html"]) {
+    padding-bottom: 0 !important;
+    height: 600px;
+    width: 100%;
+    border: 2px solid #cccccc;
+  }
+  .relative.inline-block:has(> iframe[src^="/events-embed.html"])
+    > iframe[src^="/events-embed.html"] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
   }
 }

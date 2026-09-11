@@ -1,6 +1,6 @@
 # Sustainability playbook
 
-This repository contains the nascent UC OSPO Sustainability Playbook website. It is a MyST Markdown site that acts as a standalone subproject linked to the core UC OSPO Network website.
+This repository contains the nascent UC OSPO Sustainability Playbook website. It is a MyST Markdown site. Because it is deployed with GitHub pages, it inherits the ucospo.net domain automatically by being part of the UC OSPO Network GitHub organization.
 
 To ensure that this subproject's branding, layout, and global navigation match the core site, we use a custom `Makefile` to synchronize certain assets periodically.
 
