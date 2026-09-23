@@ -47,7 +47,7 @@ Of course, some projects really do succeed in standing up their own forum and ho
 # Communication channels
 Whether your project is brand new or well-established, you’ll want to make it clear where people can send their comments and questions. Here are some considerations, roughly corresponding to the "levels" we discussed in [the introduction to this facet](community_intro.md#three-approaches-to-oss-communities).
 
-## Level 1 (Experimental and/or personal projects)
+## Level 1 (experimental and/or personal projects)
 
 For new, experimental, or personal projects, you really only need to answer two questions:
 * How can people get a hold of you?
