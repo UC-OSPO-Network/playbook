@@ -21,7 +21,7 @@ Choosing a license is not always as simple as choosing the one that sounds good 
 
 It is generally accepted that the Open Source Initiative (OSI) stewards the [definitive list of open source licenses](https://opensource.org/licenses). Therefore, to be considered open source, your software and its dependencies must have OSI-approved licenses.
 
-A thorough treatment of open source licensing is beyond the scope of this handbook. Rather than try to provide a systematic overview of open source licensing, we will focus on aspects of it that are relevant to the UC researcher, addressing common scenarios and key policies. We refer to several more systematic overviews in the references section.
+A thorough treatment of open source licensing is beyond the scope of this handbook. Rather than try to provide a systematic overview of open source licensing, we will focus on aspects of it that are particularly relevant to the UC researcher, addressing common scenarios and key policies. We refer to several more systematic overviews in the references section.
 
 # When is the right time to "go open source"?
 
@@ -142,8 +142,7 @@ Your campus TTO can answer your questions about trademark law. Working with your
 :::{grid-item}
 :columns: 2
 
-```{image} ../images/ospo_link.png
-:width: 80%
+```{image} ../images/ospo_link.svg
 ```
 :::
 

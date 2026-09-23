@@ -4,10 +4,18 @@ short_title: ✅ What is discoverability?
 
 # What is discoverability?
 
-```{image} ../images/discover.png
-:alt: A stylized illustration of a person at a laptop, and near their head is a cursor clicking a hyperlink.
+```{image} ../images/discover.svg
+:alt: A stylized illustration of a person at a laptop, imagining a cursor clicking a hyperlink.
 :width: 70%
 :align: center
+:class: dark:hidden
+```
+
+```{image} ../images/discover_dark.svg
+:alt: A stylized illustration of a person at a laptop, imagining a cursor clicking a hyperlink.
+:width: 70%
+:align: center
+:class: hidden dark:block
 ```
 
 Most academics today agree that sharing research materials is important and benefits society ([Tenopir et al. 2011](https://doi.org/10.1371/journal.pone.0021101), [Ferguson et al. 2023](https://doi.org/10.1038/s41467-023-41111-1)), yet there are worrying gaps between current and potential rates of academic code sharing. Only around 10-40% of papers that generate code share it ([Cooper et al. 2026](https://doi.org/10.1111/2041-210x.70338), [Vinson and Kmec, 2026](https://www.science.org/content/blog-post/leveraging-metrics-drive-data-sharing-science-journals)), and only between 24% and 40% of software mentions in the literature lead to source code ([Howison and Bullard, 2015](https://doi.org/10.1002/asi.23538)). Additionally, a UC OSPO study estimated that fewer than 30% of UC-affiliated repositories on GitHub have a license ([Gomez et al. 2025](https://doi.org/10.48550/arXiv.2506.18359)). While some of these projects may have had good reasons for not sharing their code, citing their dependencies, or choosing a license, there can be little doubt that there is room for improvement when it comes to making academic code more findable, shareable, citable, and reusable.

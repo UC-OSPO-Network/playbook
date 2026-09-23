@@ -40,13 +40,21 @@ All COSS businesses rely on what Heather Meeker calls [“segmentation”](https
 
 Many–perhaps most–open source businesses use some variation of **“open core”**, in which the core of the codebase is permissively licensed, but the more advanced or custom features must be purchased and come with a restrictive license. The “freemium” or tiered model is the same principle as open core, where a basic tier is free while others are not.
 
-Another business model is **dual licensing**, which allows users to choose which license works for them. In this case, the free version of the software comes with a strong copyleft license such as AGPL, while the enterprise version comes with a price tag and instead offers more enterprise-friendly licensing terms. Oracle’s MySQL is a prominent example of this. Note, however, that this model is not as common as it used to be. Among other drawbacks, dual licensing requires substantial enforcement effort, which consumes resources and can lead to negative publicity.
+Another business model is **dual licensing**, which traditionally allows users to choose which license works for them. In this case, the free version of the software comes with a strong copyleft license such as AGPL, while the enterprise version comes with a price tag and instead offers enterprise-friendly licensing terms. Oracle’s MySQL is a prominent example of this. Since the rise of cloud computing raised legal disputes that challenged this model, other variants have emerged. Nowadays, **source-available** and **conditional commercial use** licenses, such as the Business Source License, Elastic License, and [Polyform Licenses](https://polyformproject.org/licenses), seem to be more popular than dual licenses. These are technically not open source (see box below).
+
+```{tip} Source-available licensing at UC
+Discerning readers may have noticed that two of the projects we interviewed for this playbook are technically not open source. AAQ09 use licenses that make the software free and open for non-commercial use (e.g. research), but charge for commercial use. This means they do not meet [OSI's official Open Source Definition](https://opensource.org/osd), which states that a license cannot restrict anyone from using the software in a specific field, such as a business.
+
+Whether you feel like this kind of licensing is a violation of free software ethics is a personal choice. These two projects have found the model moderately useful, though both said the total revenue they bring in from licensing fees is very small. Meanwhile, for better or for worse, most researchers who use, modify, and redistribute the software don't notice that it's technically not open source.
+```
 
 Another COSS business model involves selling **human-mediated support services**. Such services might include installation, quality assurance, security checks, backups, and regular maintenance. RedHat is a prominent example of this. RedHat sells subscriptions to enterprise-ready versions of Linux, along with updates, patches, and tech support.
 
 Another type of services model is one that focuses on **digital services**, particularly software as a service (SaaS). In the SaaS model, the company charges for use of a centrally managed cloud-based version of their open source tool. Many users prefer this plug-and-play solution over self-hosting and maintaining their own infrastructure. WordPress is a prominent example of this.
 
 Selling human-mediated tech support services can be a good fit for new, small projects, in which the team can leverage their expertise. However, investors these days will generally want services that scale, and this means digital services. Human bandwidth is far more limited than digital bandwidth, so companies whose main product is human tech support will face growth bottlenecks.
+
+AAQ10
 
 It is tempting to say there are essentially two types of open source business model: those that segment their product into differently-licensed tiers, and those that permissively license the code and charge for services instead. However, that is an oversimplification. The reality is that prices, licenses, and services are all levers that can be adjusted, and many open source projects use a combination of these mechanisms.
 
@@ -55,7 +63,7 @@ There are business models beyond the ones listed here–for example, selling pro
 ### A note on AI
 The future of open source business models is uncertain given disruption by AI. There is speculation that “open source is dead” because allegedly companies can now circumvent copyleft licensing terms by rebuilding an AI generated, "clean-room" version of the open source product ([Fuchs 2026](https://medium.com/@mathias.fuchs/is-ai-breaking-open-sources-business-model-5f74081774f3)). However, business models that rely on copyleft licenses are already somewhat uncommon, and are arguably on the decline ([Meeker, 2026](https://heathermeeker.com/2026/03/16/malus-is-copyleft-dead/)). Regardless of whether copyleft is dead, open source is not. Open source is, however, adjusting to a new tech landscape in which some of the traditional upsells that open source companies rely on, such as tech support and UI upgrades, are getting easier to produce, and thus harder to monetize.
 
-We expect at least two kinds of responses to this. First, new technologies may emerge to defend open source code from unfair use, such as [Cloudflare’s "Pay-per-crawl" project](https://blog.cloudflare.com/introducing-pay-per-crawl/), or improvements in code watermarking. Second, open source companies may accept that open code is no longer safe from AI, and shift their business models toward producing things AI can’t. This includes managed services (e.g. SaaS), human-validated security upgrades, high-quality datasets, and most importantly, the creative products of diverse community collaboration.
+We expect at least two kinds of responses to this. First, new technologies may emerge to defend open source code from unfair use, such as [Cloudflare’s "Pay-per-crawl" project](https://blog.cloudflare.com/introducing-pay-per-crawl/), or improvements in code watermarking. Second, open source companies may accept that open code is no longer safe from AI, and shift their business models toward producing things AI can’t. This includes managed services, human-validated security upgrades, high-quality datasets with reliable provenance, and most importantly, the creative products of diverse community collaboration.
 
 ## Recruiting investors
 
@@ -96,9 +104,9 @@ The UC OSPO Network, like your TOO, can point you to entrepreneurship resources 
 :::{grid-item}
 :columns: 2
 
-```{image} ../images/ospo_link.png
-:width: 80%
+```{image} ../images/ospo_link.svg
 ```
+
 :::
 
 :::{grid-item}

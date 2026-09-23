@@ -88,10 +88,18 @@ citation as-is, as this citation is not up to the latest scholarly standards.
 Package registries such as PyPI and CRAN are a last resort, since these are
 often incomplete and/or out of date.
 
-```{image} ../images/citation_search.png
+```{image} ../images/citation_search.svg
 :alt: A stylized illustration of a person with a magnifying glass, searching through a page that says "Where to find citation info: 1. CITATION.cff. 2. README. 3. Package registry".
 :width: 70%
 :align: center
+:class: dark:hidden
+```
+
+```{image} ../images/citation_search_dark.svg
+:alt: A stylized illustration of a person with a magnifying glass, searching through a page that says "Where to find citation info: 1. CITATION.cff. 2. README. 3. Package registry".
+:width: 70%
+:align: center
+:class: hidden dark:block
 ```
 
 If the creators do not provide a recommended software citation, or the one they
@@ -142,7 +150,7 @@ and/or where they can thank you.
 
 ```{figure} ../images/all_contributors.png
 :alt: A screenshot showing a website with cards that each lists a contributor's name, shows their portrait, and lists their roles, such as "Tyler Benning - Maintenance; Code; Design".
-:figwidth: 70%
+:figwidth: 100%
 :align: center
 :class: fig-caption-text
 
@@ -220,35 +228,23 @@ about such questions as:
 - “Is it worth our time to keep maintaining this?”
 - “Are we the right people to steward this?”
 
-ANECDOTE FROM INTERVIEW HERE
-
-::::{pull-quote} "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-```{image} ../images/anonymous.png
-:width: 20%
-:align:center
-```
-
-:::{div} :class: centered-text -NAME, position :::
-
-::::
+AAQ01
 
 Succession planning means planning for continuity in project operations even as
 individual leaders come and go. In academic open source, succession planning is
 often a matter of ensuring that core project operations don’t depend on just one
-person. ::: {tip} Succession planning checklist
+person.
+
+::: {tip} Succession planning checklist
 
 - More than one person:
   - has full administrative privileges to the project repository.
   - understands how the codebase works.
   - has access to any accounts managing paid services that support the project.
   - has access to any passwords or secrets that are crucial to the project.
-  - has access to the source files for any logos or other style assets. :::
+  - has access to the source files for any logos or other style assets.
+
+:::
 
 Archival refers to preservation of your software as a scholarly artifact. As
 discussed above, this helps ensure that your work is findable to others who may
@@ -276,23 +272,23 @@ out to us or attend our
 ## Related resources
 
 ::::{grid} 12 12 12 12
-
 :::{grid-item}
 :columns: 2
+```{image} ../images/ospo_link.svg
 
-```{image} ../images/ospo_link.png
-:width: 80%
 ```
 :::
-
 :::{grid-item}
 :columns: 10
-Want to learn more about scholarly preservation
-of software? Check out these related resources.
+Want to learn more about scholarly preservation of software? Check out these resources.
 :::
 ::::
 
+
 ### Software Citation
+
+- [Sharing Research Software: Reproducible, Citable, and Discoverable](https://ucospo.net/research-software-citable-discoverable/)
+    - A carpentries lesson on software discoverability, developed by the UC OSPO Network.
 
 - [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/)
   - A web-based form tool that guides users through creating and validating
