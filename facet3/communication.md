@@ -47,13 +47,13 @@ Of course, some projects really do succeed in standing up their own forum and ho
 # Communication channels
 Whether your project is brand new or well-established, you’ll want to make it clear where people can send their comments and questions. Here are some considerations, roughly corresponding to the "levels" we discussed in [the introduction to this facet](community_intro.md#three-approaches-to-oss-communities).
 
-## Experimental and/or personal projects
+## Level 1 (Experimental and/or personal projects)
 
 For new, experimental, or personal projects, you really only need to answer two questions:
 * How can people get a hold of you?
 * What’s the status of this project?
 
-It is a courtesy to make your **preferred contact method** explicit, especially if you will have trouble responding to repository issues in a timely manner. Consider sharing your employer-provided email address in your README if this is a good way to reach you. If you’re worried about spam from sharing your email publicly, consider using an email aliasing service, or using a dedicated email address just for the project (and share the credentials for this email with someone on your team).
+It is a courtesy to make your **preferred contact method** explicit, especially if you will have trouble responding to repository issues in a timely manner. Consider sharing your employer-provided email address in your README if this is a good way to reach you. If you’re worried about spam from sharing your email publicly, consider using an email aliasing service, or using a dedicated email address just for the project (and share the credentials for this email with someone on your team, if you're part of a team that depends on it).
 
 A **project status** is crucial for helping people decide whether to adopt your tool. There is no standard place to put this, but your README.md and CONTRIBUTING.md files are both good options (more on CONTRIBUTING.md later). You can also easily add a custom, static shields.io badge with a word or two indicating your project’s status e.g. “experimental”, “paused”, etc. Here are some example statuses you might want to convey:
 * Project is not ready for/designed for external use
@@ -73,10 +73,10 @@ For smaller projects especially, a static badge can be a quick and easy way to c
 
 ```
 
-## Growing projects
+## Level 2 (growing projects)
 Once your repository starts gaining traction, issues, pull requests, and 1-on-1 email communications may not be sufficient for a variety of reasons. A real-time chat space with persistent messages may be a wise investment of time and energy. A chat space can help organize your communications into channels, foster random conversations that promote social connection, and make your public conversations findable for future users. AAQ06
 
-## Mature projects
+## Level 3 (mature projects)
 If you’re serious about building community, then you’ll want to make sure you have all of the above communication channels, and you may also consider adding the additional channels below.
 
 **In-app communication:** Consider leaving contact information inside your application itself. If your application has a start-up message printed to the terminal, you can put contact information in there. If your application has a graphical user interface, you could add a “Report a bug” button. AAQ07
