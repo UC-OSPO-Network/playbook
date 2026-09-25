@@ -33,6 +33,7 @@ project:
     - title: Interviews
       children:
         - file: interviews/jon_balkind.md
+        - file: interviews/juan_cobo_betancourt.md
 
 site:
   template: book-theme
