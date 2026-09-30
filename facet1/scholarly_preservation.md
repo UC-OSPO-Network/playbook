@@ -4,6 +4,20 @@ short_title: ✅ Preserving your software in the scholarly record
 
 # Preserving your software in the scholarly record
 
+:::{div}
+:class: dark:hidden
+:width: 70%
+:align: center
+![A stylized illustration of data nodes connected in a network on a computer.](../images/data_connections.svg)
+:::
+
+:::{div}
+:class: hidden dark:block
+:width: 70%
+:align: center
+![A stylized illustration of data nodes connected in a network on a computer.](../images/data_connections_darkmode.svg)
+:::
+
 The first step to making your code discoverable is to put it online. However,
 not all websites are equally reliable or future-proof. A UC OSPO study found
 that 30% of experienced UC open source contributors have, at one time or

@@ -28,6 +28,8 @@ project:
     - title: Facet 4 - Product design
       children:
         - file: facet4/design_intro.md
+        - file: facet4/codebase.md
+        - file: facet4/contribution.md
     - file: conclusion.md
     - file: acknowledgments.md
     - title: Interviews
