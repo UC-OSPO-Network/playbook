@@ -63,13 +63,13 @@ A **project status** is crucial for helping people decide whether to adopt your 
 
 Being explicit about your project’s status is honest and helpful, and will help you build a positive reputation.
 
-```{figure} ../images/static_status_badge.png
-:alt: An image of a shields.io status badge that reads: "project status: experimental".
+```{figure} ../images/repo_status.png
+:alt: An image of several status badges with the following statuses: "Concept", "WIP", "Suspended", "Abandoned", "Active", "Inactive", "Unsupported", and "Moved".
 :figwidth: 40%
 :align: center
 :class: fig-caption-text
 
-For smaller projects especially, a static badge can be a quick and easy way to communicate a simple project status.
+For smaller projects especially, a [repo status badge](https://www.repostatus.org/) can be a quick and easy way to communicate a simple project status.
 
 ```
 

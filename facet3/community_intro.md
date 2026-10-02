@@ -53,8 +53,11 @@ Want to learn more? Check out these general resources for open source community.
 :::
 ::::
 
-- [The Turing Way](https://book.the-turing-way.org/)
-  - Community is a major theme embedded in the entire Turing Way, a handbook for reproducible research. Their community documents and processes are also public and very readable, meaning you can also learn from their example.
+* [The Turing Way](https://book.the-turing-way.org/)
+  * Community is a major theme embedded in the entire Turing Way, a handbook for reproducible research. Their community documents and processes are also public and very readable, meaning you can also learn from their example.
 
-- [CSCCE: Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)
-  - CSCCE is a project dedicated to training and support for people managing scientific communities. If you are a full-time or part-time community manager, check out their wealth of resources and their certification programs.
+* [CSCCE: Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)
+  * CSCCE is a project dedicated to training and support for people managing scientific communities. If you are a full-time or part-time community manager, check out their wealth of resources and their certification programs.
+
+* [The Open Source Way](https://www.theopensourceway.org/)
+    * A collection of best practices for initiating, nurturing, growing, and maintaining open source communities.

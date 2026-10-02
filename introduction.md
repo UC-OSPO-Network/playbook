@@ -89,6 +89,8 @@ Looking for more resources similar to this playbook? Check out these related wor
     * SustainOSS is a community dedicating to supporting open source maintainers and the health of open source projects. They have several active and archived podcast series on OSS sustainability.
 * [It Takes a Village from Lyrasis](https://itav.lyrasis.org/)
     * A practical guide for OSS sustainability, rich with case studies and interviews, geared toward open-source software projects serving cultural and scientific heritage organizations.
+* [Producing Open Source Software: How to Run a Successful Free Software Project](https://producingoss.com/en/producingoss.html)
+    * Karl Fogel's guide to running an open source project, covering a broad range of technical and social considerations.
 * [OSAOS Handbook](https://osaos.codeforscience.org/)
     * A handbook with reflections from open source leaders, created during a hackathon in 2018.
 

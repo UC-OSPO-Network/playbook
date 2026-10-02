@@ -378,13 +378,19 @@ Want to learn more about scholarly preservation of software? Check out these res
   - A curated list from the Software Sustainability Institute of academic
     journals that accept and publish peer-reviewed papers about software.
 
-### Succession Planning
+### Succession Planning & Archival
 
 - [UC Berkeley Succession Planning Toolkit](https://hr.berkeley.edu/grow/grow-your-impact/services-offered/succession-planning-academic-and-administrative-departments)
   - A toolkit to assist academic and administrative departments with succession
     planning before or during staff departures.
 
-### Archival & Repositories
+- [CHAOSS Practitioner Guide: Getting Started with Contributor Sustainability](https://www.chaoss.community/practitioner-guide-contributor-sustainability/)
+  - A guide to the key metrics for understanding a project's sustainability through the lens of having enough contributors.
+
+- [CHAOSS Practitioner Guide: Getting Started with Sunsetting an Open Source Project](https://www.chaoss.community/practitioner-guide-sunset/)
+  - A guide to deliberately and responsibly sunsetting an open source project.
+
+### Repositories
 
 - [Dryad](https://datadryad.org/)
   - An open-access data repository where CDL and the 10 UC campuses hold
