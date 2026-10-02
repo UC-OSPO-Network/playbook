@@ -55,11 +55,7 @@ For new, experimental, or personal projects, you really only need to answer two 
 
 It is a courtesy to make your **preferred contact method** explicit, especially if you will have trouble responding to repository issues in a timely manner. Consider sharing your employer-provided email address in your README if this is a good way to reach you. If you’re worried about spam from sharing your email publicly, consider using an email aliasing service, or using a dedicated email address just for the project (and share the credentials for this email with someone on your team, if you're part of a team that depends on it).
 
-A **project status** is crucial for helping people decide whether to adopt your tool. There is no standard place to put this, but your README.md and CONTRIBUTING.md files are both good options (more on CONTRIBUTING.md later). You can also easily add a custom, static shields.io badge with a word or two indicating your project’s status e.g. “experimental”, “paused”, etc. Here are some example statuses you might want to convey:
-* Project is not ready for/designed for external use
-* Code runs but has not been stress-tested
-* Project is actively maintained, even if commits are not frequent
-* Code is provided as-is and the maintainer is not available for questions or comments
+A **project status** is crucial for helping people decide whether to adopt your tool. There is no standard place to put this, but your README.md and CONTRIBUTING.md files are both good options (more on CONTRIBUTING.md later). [repostatus.org](https://www.repostatus.org/) has some example statuses you can use, definitions, and hosted badge images with the markdown or HTML code to drop them right into your project.
 
 Being explicit about your project’s status is honest and helpful, and will help you build a positive reputation.
 
