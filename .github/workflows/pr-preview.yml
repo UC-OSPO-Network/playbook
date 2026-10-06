@@ -23,20 +23,22 @@ jobs:
 
       # --- START OF BUILD STEPS ---
       # Adjust these steps based on your static site generator (Hugo, Jekyll, Node.js, etc.)
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '20'
+          python-version: '3.11'
 
       - name: Install dependencies & Build
         run: |
-          npm ci
-          npm run build
+          pip install -r requirements.txt
+          pip install mystmd
+	  myst build
+
       # --- END OF BUILD STEPS ---
 
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./dist # ⚠️ Change this to your actual build output directory (e.g., 'public', 'out', 'build')
+          source-dir: ./_build/html
           preview-branch: gh-pages # The branch your GitHub Pages site is served from
           umbrella-dir: pr-preview # The subfolder where all previews will live
