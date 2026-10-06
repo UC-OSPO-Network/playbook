@@ -17,7 +17,7 @@ Let us know what you think! [Leave an issue](https://github.com/UC-OSPO-Network/
 
 Illustrations are mostly modified from [undraw.co](https://undraw.co/), created by [Katerina Limpitsouni](https://x.com/ninalimpi).
 
-```{warning} Disclaimer
+```{note} Disclaimer
 
 The content provided in this playbook is for informational and educational purposes only and does not constitute legal, financial, or administrative advice. While the UC OSPO Network Project is hosted at the University of California, the views and information expressed herein are those of the project team and do not necessarily reflect the official policies, positions, or regulations of the University of California or its administration.
 
