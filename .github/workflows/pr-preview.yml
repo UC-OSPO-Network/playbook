@@ -1,0 +1,42 @@
+name: Deploy PR Preview
+
+# This workflow runs when a PR is opened, updated, or closed
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+# Required permissions for the action to push to the branch and leave a PR comment
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # --- START OF BUILD STEPS ---
+      # Adjust these steps based on your static site generator (Hugo, Jekyll, Node.js, etc.)
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies & Build
+        run: |
+          npm ci
+          npm run build
+      # --- END OF BUILD STEPS ---
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./dist # ⚠️ Change this to your actual build output directory (e.g., 'public', 'out', 'build')
+          preview-branch: gh-pages # The branch your GitHub Pages site is served from
+          umbrella-dir: pr-preview # The subfolder where all previews will live
