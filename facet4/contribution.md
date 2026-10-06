@@ -1,5 +1,5 @@
 ---
-short_title: Designing on-ramps for community contribution
+short_title: Designing for community contribution
 ---
 
-# Designing on-ramps for community contribution
+# Designing for community contribution
