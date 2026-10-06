@@ -1,6 +1,5 @@
 name: Deploy PR Preview
 
-# This workflow runs when a PR is opened, updated, or closed
 on:
   pull_request:
     types:
@@ -9,7 +8,6 @@ on:
       - synchronize
       - closed
 
-# Required permissions for the action to push to the branch and leave a PR comment
 permissions:
   contents: write
   pull-requests: write
@@ -21,7 +19,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # --- START OF BUILD STEPS ---
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -29,18 +26,17 @@ jobs:
 
       - name: Install dependencies & Build
         env:
-          # Sets base URL so MyST fetches site configuration from the PR subfolder
-          BASE_URL: /${{ github.event.repository.name }}/pr-preview/pr-${{ github.event.number }}
+          # Custom domain routes directly from root, so omit /playbook
+          BASE_URL: /pr-preview/pr-${{ github.event.number }}
         run: |
           pip install -r requirements.txt
           pip install mystmd
           myst build --html
 
-      # --- END OF BUILD STEPS ---
-
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./_build/html
-          preview-branch: gh-pages # The branch your GitHub Pages site is served from
-          umbrella-dir: pr-preview # The subfolder where all previews will live
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          custom-url: 'https://ucospo.net'
