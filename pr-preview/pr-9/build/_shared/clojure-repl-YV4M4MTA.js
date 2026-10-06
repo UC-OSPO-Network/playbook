@@ -1,1 +1,1 @@
-import{c as n}from"/playbook/pr-preview/pr-9/build/_shared/chunk-RAQ24GF6.js";var a=n((t,e)=>{function s(r){return{name:"Clojure REPL",contains:[{className:"meta",begin:/^([\w.-]+|\s*#_)?=>/,starts:{end:/$/,subLanguage:"clojure"}}]}}e.exports=s});export default a();
+import{c as n}from"/pr-preview/pr-9/build/_shared/chunk-RAQ24GF6.js";var a=n((t,e)=>{function s(r){return{name:"Clojure REPL",contains:[{className:"meta",begin:/^([\w.-]+|\s*#_)?=>/,starts:{end:/$/,subLanguage:"clojure"}}]}}e.exports=s});export default a();
