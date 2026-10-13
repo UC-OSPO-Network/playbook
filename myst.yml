@@ -23,7 +23,6 @@ project:
         - file: facet3/community_intro.md
         - file: facet3/communication.md
         - file: facet3/governance.md
-        - file: facet3/inclusivity.md
         - file: facet3/project_management.md
     - title: Facet 4 - Product design
       children:
