@@ -14,10 +14,9 @@ project:
       children:
         - file: facet2/funding_intro.md
         - file: facet2/sponsored_projects.md
-        - file: facet2/entrepreneurship.md
         - file: facet2/nonprof_fiscsponsor.md
         - file: facet2/sharedres_feeforserv.md
-        - title: Facet 2 - Funding
+        - file: facet2/entrepreneurship.md
     - title: Facet 3 - Community
       children:
         - file: facet3/community_intro.md
