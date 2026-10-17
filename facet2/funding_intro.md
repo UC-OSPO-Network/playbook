@@ -19,12 +19,12 @@ Funding: it’s on everybody’s mind. It’s well-known that funding for open s
 Here’s the good news: there may be funding opportunities you haven’t considered or just haven’t had the time to learn about. Open source tooling often has broad appeal and a low barrier to entry for the community, facilitating opportunities for industry partnerships, nuanced licensing models, institutional support, and other funding mechanisms besides grants. Open source projects lend themselves well to a diverse funding portfolio.
 
 Here are just a few of the resourcing mechanisms leveraged by the projects we interviewed:
-* **Grants**: All of the projects we interviewed had, at one time or another, been associated with a grant. Most often, the grant funding came early on, helping the project get off the ground. AAQ21
-* **In-kind donations**: In-kind contributions from the university, industry, collaborators, and community volunteers were one of the most common forms of support among the projects we interviewed. These included code, facility space, and advising from industry, countless hours of university staff time, and diverse kinds of labor from community volunteers.
-* **Company staff**: Two of the projects we interviewed were primarily maintained by a full-time employee at a tech company. AAQ18 This arrangement means that the company has some degree of say in the direction of the project, but in exchange, the project enjoys a dedicated full-time or nearly full-time developer.
-* **Government-mediated industry partnerships**: Some federal programs specifically fund industry-academia collaborations, bound by grants or other agreements. AAQ19 Many of the projects we talked to also received the POSE award (now PESOSE) from the National Science Foundation, which includes industry mentorship as part of its programming.
-* **Industry consortia**: UC is home to a number of industry consortia, where companies pay a membership fee to support projects of interest to their field. AAQ20
-* **Entrepreneurship**: Of course, the open source project could form its own company, with varying degrees of separation between the company and the maintainers of the free codebase. AAQ17
+* **Grants**: Nearly all of the projects we interviewed had, at one time or another, received grant funding.
+* **In-kind donations**: In-kind contributions from the university, industry, collaborators, and community volunteers were one of the most common forms of support among the projects we interviewed.
+* **Company staff**: Two of the projects we interviewed were primarily maintained by a full-time employee at a tech company.
+* **Government-mediated industry partnerships**: Some federal programs specifically fund industry-academia collaborations, bound by grants or other agreements.
+* **Industry consortia**: UC is home to a number of industry consortia, where companies pay a membership fee to support projects of interest to their field.
+* **Entrepreneurship**: Of course, the open source project could form its own company, with varying degrees of separation between the company and the maintainers of the free codebase.
 
 These mechanisms are not mutually exclusive. Some projects we interviewed have made use of all of them. For simplicity, we present only four categories of resourcing in this chapter, largely based on how they are handled by the university. Each of the following chapters is an umbrella topic that covers many types of arrangements.
 
