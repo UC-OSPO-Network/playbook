@@ -28,8 +28,7 @@ jobs:
 
       - name: Install dependencies & Build
         env:
-          # Custom domain routes directly from root, so omit /playbook
-          BASE_URL: playbook/pr-preview/pr-${{ github.event.number }}
+          BASE_URL: /playbook/pr-preview/pr-${{ github.event.number }}
         if: github.event.action != 'closed'
         run: |
           pip install -r requirements.txt
